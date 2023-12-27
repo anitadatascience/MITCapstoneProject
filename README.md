@@ -30,28 +30,3 @@ logistic regression, easy to visualize, mirrors human decision making more close
 requires little data preparation. It also outlines the important features we are looking to
 review when approving a loan along with a high recall and precision score.
 
-Data Exploration
-—
-We were provided the Home Equity dataset from the existing loan underwriting process
-on recent applicants who had been approved for the credit.
-The dataset contains the loan performance information for recent home equity loans on
-5,960 clients. The loan defaulting occurred in 1,189 cases (20 percent). The target
-(BAD) is a binary variable where 1 = “Client defaulted loan” and 0 = “loan repaid” along
-with 12 other input variables regarding each applicant.
-● BAD: 1 = Client defaulted on loan, 0 = loan repaid
-● LOAN: Amount of loan approved.
-● MORTDUE: Amount due on the existing mortgage.
-● VALUE: Current value of the property.
-● REASON: Reason for the loan request. (HomeImp = home improvement,
-DebtCon= debt consolidation which means taking out a new loan to pay off other
-liabilities and consumer debts)
-● JOB: The type of job that loan applicant has such as manager, self, etc.
-● YOJ: Years at present job.
-● DEROG: Number of major derogatory reports (which indicates a serious
-delinquency or late payments).
-● DELINQ: Number of delinquent credit lines (a line of credit becomes delinquent
-when a borrower does not make the minimum required payments 30 to 60 days
-past the day on which the payments were due).
-● CLAGE: Age of the oldest credit line in months.
-● NINQ: Number of recent credit inquiries.
-● CLNO: Number of existing credit lines. 
